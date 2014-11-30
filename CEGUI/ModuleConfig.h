@@ -49,7 +49,7 @@ setting CMake options and regenerating, rather than editing directly.
 /* #undef CEGUI_BUILD_RENDERER_DIRECTFB */
 /* #undef CEGUI_BUILD_RENDERER_DIRECT3D9 */
 /* #undef CEGUI_BUILD_RENDERER_DIRECT3D10 */
-/* #undef CEGUI_BUILD_RENDERER_DIRECT3D11 */
+#define CEGUI_BUILD_RENDERER_DIRECT3D11
 /* #undef CEGUI_BUILD_RENDERER_NULL */
 /* #undef CEGUI_BUILD_RENDERER_OPENGLES */
 
